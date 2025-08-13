@@ -1,0 +1,432 @@
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 9.9rem;
+        line-height: 95%;
+        margin-bottom: 2.5rem;
+        width: 66rem;
+    }
+    h2 {
+        font-size: 4.2rem;
+        margin-bottom: 2.7rem;
+    }
+    .icon--logo-food {
+        width: 11.2rem;
+    }
+    /*----------------------*/
+    .container {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    /*----------------------*/
+    .preview {
+        margin-bottom: 5rem;
+    }
+    .preview__content {
+        padding: 4rem 5.5rem;
+    }
+    .preview__text {
+        font-size: 2.2rem;
+        margin-bottom: 3.2rem;
+        max-width: 65rem;
+    }
+    /*----------------------*/
+    .logo {
+        width: 27.3rem;
+    }
+    /*----------------------*/
+    .generation {
+        margin-bottom: 12rem;
+    }
+    .generation__form {
+        grid-template-columns: 100%;
+        gap: 2.6rem;
+        max-width: 65rem;
+    }
+    .generation__inputs {
+        grid-template-columns: 23.7rem 1fr 1fr;
+        grid-template-rows: 12.6rem auto auto;
+        gap: 2rem;
+    }
+    .generation .btn-black {
+        grid-column: 2 / 4;
+        grid-row: 3 / 4;
+        font-size: 2rem;
+    }
+    /*----------------------*/
+    .recipient {
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
+    }
+    /*----------------------*/
+    .color-gift {
+        height: 12.6rem;
+        width: 18.3rem;
+        align-self: auto;
+    }
+    /*----------------------*/
+    .difficulty {
+        width: 18.3rem;
+        height: 12.6rem;
+    }
+    .difficulty__value {
+        font-size: 4.2rem;
+    }
+    .difficulty__content {
+        padding: 1.1rem 0 1.2rem 1.1rem;
+    }
+    .difficulty__range {
+        height: 12.4rem;
+    }
+    .difficulty__range input {
+        width: 12.4rem;
+    }
+    /*----------------------*/
+    .mood {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+    .mood__btns label {
+        height: 4.8rem;
+        width: 4.8rem;
+    }
+    .mood__btns label:has(input:checked) {
+        width: 27.4rem;
+    }
+    /*----------------------*/
+    .gifts {
+        padding-bottom: 5.6rem;
+    }
+    .gifts__text {
+        font-size: 2rem;
+        max-width: 63rem;
+        margin-bottom: 2rem;
+    }
+    .gifts__items {
+        grid-template-columns: 1fr;
+        max-width: 65rem;
+        margin: 0 auto;
+    }
+    /*----------------------*/
+    .discount {
+        grid-column: 1 / 2;
+    }
+    .discount__content {
+        padding: 2.3rem 2.4rem 2rem;
+        gap: 1.5rem;
+    }
+    .discount__img {
+        display: none;
+    }
+    .discount__right {
+        max-width: 21.7rem;
+    }
+    /*----------------------*/
+    .promocode {
+        padding: 2rem 2.4rem 2.4rem;
+        grid-template-columns: 32.4rem 1fr;
+        row-gap: 2.4rem;
+        column-gap: 6rem;
+        align-items: end;
+    }
+    .promocode__top {
+        grid-column: 1 / 3;
+        align-items: flex-start;
+    }
+    .promocode__center {
+        flex-direction: column;
+    }
+    .promocode__bottom {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    /*----------------------*/
+    .generation__content {
+        max-width: 46.5rem;
+        min-height: 31.5rem;
+        padding: 2.1rem 2rem 1.9rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 5.6rem;
+        margin-bottom: 1.5rem;
+        width: 28rem;
+    }
+    h2 {
+        font-size: 2.8rem;
+        margin-bottom: 2.4rem;
+    }
+    h3 {
+        font-size: 2.8rem;
+    }
+    h4 {
+        font-size: 2.8rem;
+    }
+    /*----------------------*/
+    .container {
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+    }
+    /*----------------------*/
+    .icon--funny,
+    .icon--inspiring,
+    .icon--useful {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .icon--share {
+        width: 2.3rem;
+        height: 1.7rem;
+        stroke-width: 2;
+    }
+    /*----------------------*/
+    .dekstop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    /*----------------------*/
+    .btn-light {
+        font-size: 1.8rem;
+        padding: 1.6rem;
+    }
+    /*----------------------*/
+    .preview {
+        margin-bottom: 3.7rem;
+    }
+    .preview__content {
+        padding: 2.6rem 2rem 2.3rem;
+    }
+    .preview__text {
+        font-size: 1.2rem;
+        margin-bottom: 0.9rem;
+    }
+    /*----------------------*/
+    .logo {
+        width: 16.4rem;
+    }
+    /*----------------------*/
+    .generation {
+        margin-bottom: 3.9rem;
+    }
+    .generation__form {
+        gap: 3.8rem;
+        max-width: 29rem;
+    }
+    .generation__inputs {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 2rem;
+        row-gap: 2.4rem;
+    }
+    .generation .btn-black {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+        font-size: 1.8rem;
+    }
+    .generation__output {
+        margin: 0 -1.6rem;
+    }
+    .generation__output img {
+        border-radius: 0;
+    }
+    .generation__content {
+        margin: auto;
+        width: 28.8rem;
+    }
+    .generation__text {
+        font-size: 1.4rem;
+    }
+    .generation__share {
+        right: 1.6rem;
+        bottom: 3.2rem;
+        top: auto;
+        left: 1.6rem;
+        background: rgba(30, 30, 30, 0.3);
+        padding: 1rem 1.5rem;
+        border: 1px dashed var(--color-white);
+        color: var(--color-white);
+        text-align: left;
+        border-radius: 8px;
+        font-size: 0.9rem;
+    }
+    .generation__share-text {
+        width: 18.5rem;
+    }
+    .generation__share .tooltip {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tooltip:hover::after {
+        opacity: 0;
+    }
+    /*----------------------*/
+    .recipient {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+        gap: 1.4rem;
+    }
+    .recipient__text {
+        display: none;
+    }
+    /*----------------------*/
+    .difficulty {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+        width: auto;
+        height: 16.4rem;
+        flex-direction: column;
+    }
+    .difficulty__value {
+        font-size: 2.8rem;
+    }
+    .difficulty__content {
+        padding: 0.8rem;
+    }
+    .difficulty__text {
+        padding: 0.8rem;
+    }
+    .difficulty__range {
+        width: 100%;
+    }
+    .difficulty__range input {
+        transform: rotate(0);
+    }
+    .difficulty__range::before {
+        width: 100%;
+        height: 1.5rem;
+        top: 1rem;
+        left: 0;
+        filter: blur(1rem);
+        background: -webkit-linear-gradient(
+            270deg,
+            rgba(185, 101, 255, 1) 0%,
+            rgba(185, 101, 255, 1) 50%,
+            rgba(171, 245, 155, 1) 51%,
+            rgba(171, 245, 155, 1) 100%
+        );
+        background: -moz-linear-gradient(
+            270deg,
+            rgba(185, 101, 255, 1) 0%,
+            rgba(185, 101, 255, 1) 50%,
+            rgba(171, 245, 155, 1) 51%,
+            rgba(171, 245, 155, 1) 100%
+        );
+        background: linear-gradient(
+            270deg,
+            rgba(185, 101, 255, 1) 0%,
+            rgba(185, 101, 255, 1) 50%,
+            rgba(171, 245, 155, 1) 51%,
+            rgba(171, 245, 155, 1) 100%
+        );
+        filter: blur(1.3rem);
+    }
+    .difficulty__range::after {
+        border-top: 1px solid #000;
+        top: 1.6rem;
+        left: 0;
+        width: 100%;
+        height: 3rem;
+        border-left: 0;
+    }
+    /*----------------------*/
+    .mood {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    .mood__btns label {
+        height: 4.6rem;
+        width: 4.6rem;
+    }
+    .mood__btns label:has(input:checked) {
+        width: 18rem;
+        padding-left: 1.4rem;
+    }
+    .mood__text {
+        text-align: center;
+    }
+    .mood__btns label span {
+        margin-left: 1rem;
+    }
+    /*----------------------*/
+    .discount__logo {
+        display: none;
+    }
+    .discount__content {
+        display: block;
+        padding: 1.8rem;
+        gap: 1.2rem;
+    }
+    .discount__info {
+        display: none;
+    }
+    .discount__left {
+        margin-bottom: 2.4rem;
+    }
+    .discount__right {
+        max-width: 100%;
+        gap: 1.2rem;
+    }
+    .discount__promocode {
+        font-size: 1.8rem;
+        height: 6rem;
+    }
+    /*----------------------*/
+    .promocode {
+        row-gap: 2rem;
+        grid-template-columns: 100%;
+        padding: 1.8rem;
+    }
+    .promocode__top {
+        order: 2;
+        grid-column: 1 / 2;
+        display: block;
+    }
+    .promocode__center {
+        gap: 0.8rem;
+    }
+    .promocode__logo {
+        margin-bottom: 2rem;
+    }
+    .promocode__text {
+        color: #878787;
+    }
+    .promocode__promocode {
+        height: 5.4rem;
+    }
+    .promocode__info {
+        display: block;
+    }
+    .promocode__info span {
+        display: inline;
+    }
+    .promocode__info svg {
+        display: none;
+    }
+    .promocode__detail .tooltip {
+        border: none;
+    }
+    /*----------------------*/
+    .icon--logo-food {
+        width: 10rem;
+    }
+    .icon--logo-bench {
+        width: 11.7rem;
+    }
+    /*----------------------*/
+    .color-gift {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+        width: auto;
+        height: 16.4rem;
+    }
+    /*----------------------*/
+    .gifts__text {
+        font-size: 1.4rem;
+        margin-bottom: 2.4rem;
+    }
+    /*----------------------*/
+}
